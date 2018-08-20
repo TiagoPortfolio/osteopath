@@ -296,7 +296,7 @@ div.content-box.botao_consultas a {
   height: 90px;
   padding: 20px;
   cursor: pointer;
-  /*min-width: 380px;*/
+  min-width: 380px;
   transition: background 0.5s;
   background: #4eb9188c;
   border-radius: 20px;
@@ -531,8 +531,20 @@ input.toggle:checked ~ div.ranks .rank-desc {
 Small Device Styles
 *******************************************************************************/
 @media screen and (max-width: 400px) {
+  body {
+    padding: 30px 0px 10px;
+  }
+
   .logo {
     height: 130px;
+  }
+
+  div.content-box.botao_consultas a {
+  	min-width: 280px;
+  }
+
+  div.content-box.botao_consultas a span {
+  	font-size: 1.3em;
   }
 
   .footer a {
@@ -547,9 +559,6 @@ Small Device Styles
     height: 40px;
   }
 
-  body {
-    padding: 30px 0px 10px;
-  }
 }
 
 @media screen and (max-width: 600px) {
