@@ -198,15 +198,6 @@ form {
   -webkit-box-shadow: 0 0 20px 2px #ebebeb;
 }
 
-.intro_background {
-  padding: 40px;
-  background-image: url(../imgs/background2_cut.webp), url(../imgs/background2_cut.jpg) !important;
-  background-size: cover;
-  background-position: center 100%;
-  background-repeat: no-repeat;
-  animation: images 10s linear 0s infinite alternate;
-}
-
 @keyframes images {
   0% {
     background-image: url(../imgs/background2_cut.webp), url(../imgs/background2_cut.jpg) !important;
@@ -220,6 +211,15 @@ form {
     background-image: url(../imgs/background2_cut.webp), url(../imgs/background2_cut.jpg) !important;
   }
 }
+.intro_background {
+  padding: 40px;
+  background-image: url(../imgs/background2_cut.webp), url(../imgs/background2_cut.jpg) !important;
+  background-size: cover;
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  animation: images 10s linear 0s infinite alternate;
+}
+
 
 .introduction {
   color: white;
