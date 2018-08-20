@@ -200,10 +200,25 @@ form {
 
 .intro_background {
   padding: 40px;
-  background-image: url(../imgs/background2_cut.webp), url(../imgs/grey_background.jpg) !important;
+  background-image: url(../imgs/background2_cut.webp), url(../imgs/background2_cut.jpg) !important;
   background-size: cover;
   background-position: center 100%;
   background-repeat: no-repeat;
+  animation: images 10s linear 0s infinite alternate;
+}
+
+@keyframes images {
+  0% {
+    background-image: url(../imgs/background2_cut.webp), url(../imgs/background2_cut.jpg) !important;
+  }
+  
+  50% {
+   background-image: url(../imgs/test_background.webp), url(../imgs/test_background.jpeg) !important;
+  }
+  
+  100% {
+    background-image: url(../imgs/background2_cut.webp), url(../imgs/background2_cut.jpg) !important;
+  }
 }
 
 .introduction {
