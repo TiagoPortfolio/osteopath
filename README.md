@@ -1,1 +1,2 @@
-# osteopath.github.io
+# snaxkrew.github.io
+Snaxkrew landing page

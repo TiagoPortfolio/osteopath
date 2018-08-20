@@ -1,0 +1,13 @@
+ROADMAP
+
+Adicionar:
+	1- Introduções com detalhes sobre anos de experiencia, federado, fenaman, etc...;
+	2- Adicionar botão para marcar consultas a apontar para a secção de Serviços -> Consultas;
+	3- Links para sites como yelp, zaask, doctoralia na 2ª secção da página com estrelas baseadas na avaliação de cada site;
+	2- Header que apontam para secções com #id como Sobre, Serviços, Contactos;
+	3- Secções com #id como Sobre, Serviços, Contactos;
+	4- Fundos para cada secção;
+	5- Info sobre as consultas;
+	6- Imagens para cada serviço;
+	7- Google Maps embed na secção Contactos;
+	8- Add hamburger menu for mobile.
