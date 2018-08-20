@@ -296,7 +296,7 @@ div.content-box.botao_consultas a {
   height: 90px;
   padding: 20px;
   cursor: pointer;
-  min-width: 380px;
+  width: 380px;
   transition: background 0.5s;
   background: #4eb9188c;
   border-radius: 20px;
@@ -540,7 +540,7 @@ Small Device Styles
   }
 
   div.content-box.botao_consultas a {
-  	min-width: 280px;
+  	width: 280px;
   }
 
   div.content-box.botao_consultas a span {
