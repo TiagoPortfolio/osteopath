@@ -50,11 +50,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5 !important;
   -webkit-font-smoothing: antialiased !important;
-  /*background-image: url(../imgs/test_background.jpeg) !important;*/
-  /*background-image: url(../imgs/background2.png) !important;
-  background-size: cover;
-  background-position: center 125%;
-  background-repeat: no-repeat;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
