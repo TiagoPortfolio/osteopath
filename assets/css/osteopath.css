@@ -194,6 +194,12 @@ form {
 }
 
 .intro-background {
+	background: bottom/cover no-repeat;
+	/*background-image: url(../imgs/background2_cut.webp);*/
+	/*background-image: url(../imgs/test_background.webp);*/
+	/*background-image: url(../imgs/background3_cut.jpg);*/
+	/*background-image: url(../imgs/background4_cut.jpg);*/
+	background-image: url(../imgs/background5_cut.jpg);
 	position: relative;
 }
 
